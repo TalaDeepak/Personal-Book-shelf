@@ -1,0 +1,80 @@
+.search {
+  width: 300px;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px 15px;
+  border-radius: 5px;
+  border: 2px solid #504f4f;
+}
+
+.search:focus {
+  outline: none;
+  box-shadow: 0 2.4rem 2.4rem rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.loader {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 4.8rem;
+}
+
+.error {
+  text-align: center;
+  font-size: 2rem;
+  padding: 4.8rem;
+}
+
+.button {
+  padding: 15px 25px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.card {
+  width: 200px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 5px black;
+}
+
+.box {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.nav {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  gap: 33px;
+}
+
+.text {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
