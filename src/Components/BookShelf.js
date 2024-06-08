@@ -6,6 +6,7 @@ function BookShelf() {
 
   return (
     <div className="box">
+      <h1>My Bookshelf</h1>
       <div className="nav">
         <button className="button">
           <Link to="/" className="text">
